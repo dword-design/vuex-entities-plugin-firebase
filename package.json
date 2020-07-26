@@ -24,7 +24,8 @@
     "object-path": "^0.11.4"
   },
   "devDependencies": {
-    "@dword-design/base": "^6.24.2"
+    "@dword-design/base": "^6.24.2",
+    "firebase": "^7.17.1"
   },
   "peerDependencies": {
     "firebase": "^7.17.1"
