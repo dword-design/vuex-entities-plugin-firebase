@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/dword-design/vuex-entities-plugin-firebase/compare/v1.0.3...v1.0.4) (2020-12-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency object-path to v0.11.5 [security] ([4452fc0](https://github.com/dword-design/vuex-entities-plugin-firebase/commit/4452fc0c2a2cbfb7e4462da9a8e556a85ceedbe8))
+
 ## [1.0.3](https://github.com/dword-design/vuex-entities-plugin-firebase/compare/v1.0.2...v1.0.3) (2020-12-02)
 
 
