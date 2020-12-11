@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/dword-design/vuex-entities-plugin-firebase/compare/v1.0.4...v1.0.5) (2020-12-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency firebase to v8 ([80ed09e](https://github.com/dword-design/vuex-entities-plugin-firebase/commit/80ed09ec55fd714d856658e5d59b1497f536ecb8))
+
 ## [1.0.4](https://github.com/dword-design/vuex-entities-plugin-firebase/compare/v1.0.3...v1.0.4) (2020-12-10)
 
 
