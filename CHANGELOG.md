@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/dword-design/vuex-entities-plugin-firebase/compare/v1.0.6...v1.0.7) (2021-03-17)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#9](https://github.com/dword-design/vuex-entities-plugin-firebase/issues/9)) ([f87c5a1](https://github.com/dword-design/vuex-entities-plugin-firebase/commit/f87c5a1e196eb0de18d886aba999c436ef31f17b))
+
 ## [1.0.6](https://github.com/dword-design/vuex-entities-plugin-firebase/compare/v1.0.5...v1.0.6) (2021-02-17)
 
 
