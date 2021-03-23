@@ -1,4 +1,4 @@
-import { forIn, map, mapValues, omit, values } from '@dword-design/functions'
+import { forEach, map, mapValues, omit, values } from '@dword-design/functions'
 import firebase from 'firebase/app'
 import { lowerCaseFirst } from 'lower-case-first'
 import objectPath from 'object-path'
@@ -41,7 +41,7 @@ export default () => context => {
         })
         |> values
     } else {
-      forIn(unsubscriber => unsubscriber())(unsubscribers)
+      forEach(unsubscribers, unsubscriber => unsubscriber())
       await context.store.dispatch('entities/reset')
     }
   }
@@ -49,7 +49,7 @@ export default () => context => {
   return {
     onPersist: payload => {
       const batch = firestore.batch()
-      forIn(change => {
+      forEach(payload.changes, change => {
         const ref = firestore
           .collection('users')
           .doc(user.uid)
@@ -70,7 +70,7 @@ export default () => context => {
             { merge: true }
           )
         }
-      })(payload.changes)
+      })
       return batch.commit()
     },
   }
