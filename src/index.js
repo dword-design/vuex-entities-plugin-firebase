@@ -5,9 +5,11 @@ import objectPath from 'object-path'
 
 export default () => context => {
   const firestore = firebase.firestore()
+
   const auth = firebase.auth()
   let unsubscribers = []
   let user
+
   const execute = async _user => {
     user = _user
     if (user) {
@@ -15,6 +17,7 @@ export default () => context => {
         context.types
         |> mapValues((type, typeName) => {
           const datePaths = type.datePaths || []
+
           return firestore
             .collection('users')
             .doc(user.uid)
@@ -46,6 +49,7 @@ export default () => context => {
     }
   }
   auth.onAuthStateChanged(execute)
+
   return {
     onPersist: payload => {
       const batch = firestore.batch()
@@ -71,6 +75,7 @@ export default () => context => {
           )
         }
       })
+
       return batch.commit()
     },
   }
