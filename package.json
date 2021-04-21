@@ -1,6 +1,7 @@
 {
   "name": "@dword-design/vuex-entities-plugin-firebase",
   "version": "1.0.10",
+  "description": "",
   "repository": "dword-design/vuex-entities-plugin-firebase",
   "funding": "https://www.buymeacoffee.com/dword",
   "license": "MIT",
