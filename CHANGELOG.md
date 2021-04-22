@@ -1,3 +1,11 @@
+## [1.0.12](https://github.com/dword-design/vuex-entities-plugin-firebase/compare/v1.0.11...v1.0.12) (2021-04-22)
+
+
+### Bug Fixes
+
+* update config files ([1e1a923](https://github.com/dword-design/vuex-entities-plugin-firebase/commit/1e1a92361ec1d09dc4e95c9024f4e9cd44d818c8))
+* updated package.json[description] ([#20](https://github.com/dword-design/vuex-entities-plugin-firebase/issues/20)) ([0f9ad7b](https://github.com/dword-design/vuex-entities-plugin-firebase/commit/0f9ad7bcb5ad1ae6256ba7381de9613aa6d1424c))
+
 ## [1.0.11](https://github.com/dword-design/vuex-entities-plugin-firebase/compare/v1.0.10...v1.0.11) (2021-04-21)
 
 
