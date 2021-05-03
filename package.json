@@ -30,6 +30,9 @@
   "peerDependencies": {
     "firebase": "^8.0.0"
   },
+  "engines": {
+    "node": ">=12"
+  },
   "publishConfig": {
     "access": "public"
   }
