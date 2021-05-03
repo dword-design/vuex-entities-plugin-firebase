@@ -1,3 +1,19 @@
+# [2.0.0](https://github.com/dword-design/vuex-entities-plugin-firebase/compare/v1.0.13...v2.0.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#24](https://github.com/dword-design/vuex-entities-plugin-firebase/issues/24)) ([44a5605](https://github.com/dword-design/vuex-entities-plugin-firebase/commit/44a56055da884ad4268136146fbaecc6e8b6c0cd))
+
+
+### BREAKING CHANGES
+
+* require Node.js >= 12
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Sebastian Landwehr <info@dword-design.de>
+Co-authored-by: GitHub Actions <actions@github.com>
+
 ## [1.0.13](https://github.com/dword-design/vuex-entities-plugin-firebase/compare/v1.0.12...v1.0.13) (2021-04-28)
 
 
