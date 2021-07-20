@@ -31,14 +31,14 @@ export default () => context => {
                   ...docChange.doc.data(),
                   ...(docChange.type === 'removed' && { _deleted: true }),
                 }))
-              changes.forEach(change =>
-                datePaths.forEach(datePath => {
+              for (const change of changes) {
+                for (const datePath of datePaths) {
                   const timestamp = objectPath.get(change, datePath)
                   if (timestamp !== undefined) {
                     objectPath.set(change, datePath, timestamp.toDate())
                   }
-                })
-              )
+                }
+              }
               context.store.dispatch('entities/inject', changes)
             })
         })
