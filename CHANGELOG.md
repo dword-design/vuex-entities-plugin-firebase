@@ -1,3 +1,11 @@
+## [2.0.5](https://github.com/dword-design/vuex-entities-plugin-firebase/compare/v2.0.4...v2.0.5) (2021-07-20)
+
+
+### Bug Fixes
+
+* replace forEach with for of ([e08fd6d](https://github.com/dword-design/vuex-entities-plugin-firebase/commit/e08fd6deb671237ab9fb01de89d6d156aa8485b1))
+* update config files ([bed109e](https://github.com/dword-design/vuex-entities-plugin-firebase/commit/bed109ed3def3a32805e0ee153ba4f2e31ac1509))
+
 ## [2.0.4](https://github.com/dword-design/vuex-entities-plugin-firebase/compare/v2.0.3...v2.0.4) (2021-07-06)
 
 
